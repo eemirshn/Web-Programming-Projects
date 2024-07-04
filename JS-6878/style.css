@@ -1,0 +1,11 @@
+.tabcontent {
+    display: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  .tablinks.active {
+    font-weight: bold;
+  }
+  .tablinks{
+    color: #ff0000;
+  }

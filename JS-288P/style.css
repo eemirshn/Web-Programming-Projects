@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(161, 129, 87);
+}
+
+.user-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.user-details.show {
+  max-height: 500px;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 16px 0 rgb(255, 0, 0);
+}
+.toggle-details {
+  cursor: pointer;
+}
+.toggle-details :hover {
+color: rgb(226, 80, 43);
+}
